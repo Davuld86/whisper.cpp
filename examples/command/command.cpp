@@ -500,7 +500,7 @@ int process_general_transcription(struct whisper_context * ctx, audio_async &aud
     std::vector<float> pcmf32_cur;
     std::vector<float> pcmf32_prompt;
 
-    const std::string k_prompt = "Ok Whisper, start listening for commands.";
+    const std::string k_prompt = "Dash";
 
     fprintf(stderr, "\n");
     fprintf(stderr, "%s: general-purpose mode\n", __func__);
